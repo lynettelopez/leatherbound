@@ -1,5 +1,5 @@
-# visual studio code
-.vscode
+# macOS
+.DS_Store
 
 # npm
 node_modules
@@ -7,5 +7,5 @@ node_modules
 # sourcemaps
 *.map
 
-# macOS
-.DS_Store
+# visual studio code
+.vscode
