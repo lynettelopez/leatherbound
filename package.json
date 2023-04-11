@@ -6,6 +6,8 @@
     "scripts": {
         "lint": "stylelint \"**/*.css\" --fix",
         "lint:check": "stylelint \"**/*.css\"",
+        "prettify": "prettier --write .",
+        "prettify:check": "prettier --check .",
         "version": "node version-bump.mjs && git add manifest.json versions.json"
     },
     "devDependencies": {
